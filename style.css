@@ -1,0 +1,131 @@
+
+ul{
+    list-style-type: none;
+display: inline;
+float:right;
+width: 60%;
+align-items: center;
+  }
+  a{
+    text-decoration: none;
+    text-decoration-color: brown;
+    color: rgb(221, 18, 137);
+  }
+ul li a {
+    padding: 50px;
+    position: relative;
+
+}
+
+li:hover{
+    text-shadow: rgb(189, 162, 8);
+    color: rgb(121, 47, 105);
+    background-color: chartreuse;
+    text-emphasis-color: rgb(122, 41, 41);
+    padding: 10px;
+    border-radius: 40px;
+    border: 10px;
+    display: inline-block;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.index{
+    width: 100%;
+    height :100%; 
+background-color: rgb(168, 99, 42);
+display: flex;
+}
+body{
+background-color: rgb(235, 229, 229);
+color: rgb(189, 197, 193);
+width: auto;
+height: auto;
+}
+.rside{
+
+    float: center;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    padding: 300px;
+}
+.lside
+{
+    width: 100%;
+    height: 10%;
+    box-shadow: darkslategrey;
+    background-color: rgb(145, 170, 75);
+    padding: 10px;
+    z-index: 10;
+    align-items: right;
+    justify-content: center;
+    position: fixed;
+    display: inline-block;
+    text-align: right;
+    float:center;
+}
+h2{
+    text-align: right;
+    color: rgb(231, 182, 20);
+    display: inline-block;
+}
+li{
+    padding: 10px;
+    float: left;
+}
+/*.port{
+      text-transform: uppercase;
+    text-align: left;
+    color: mediumspringgreen;
+    text-shadow: 20px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}*/
+.port :hover {
+     background-color: beige;
+     color: black;
+     border-radius: 10px;
+     border-color: chartreuse;
+}
+.about{
+    width: 100%;
+    height: 1000px;
+}
+.project{
+    color: blueviolet;
+    background-color: khaki;
+    text-align:left;
+    width:100% ;
+    height: 1100px;
+}
+.contact{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(32, 29, 30);
+    color: rgb(111, 117, 117);
+    text-align:center;
+font-size: 50px;
+    
+}
+.c:hover{
+    text-underline-offset: rgb(83, 24, 24);
+    background-color: rgb(185, 27, 27);
+    text-shadow: 40px;
+    color: rgb(202, 122, 30);
+    border-radius: 20px;
+}
+/*.acc{
+    border-bottom: 20px;
+    align-items: center;
+}*/
+table
+{
+float: left;
+
+}
